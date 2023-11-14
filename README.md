@@ -101,3 +101,5 @@ server:
               username: <USERNAME TO AUTHENTICATE TO THE TARGET SYSTEM>
               password: <PASSWORD TO AUTHENTICATE TO THE TARGET SYSTEM>
 ```
+
+> Now all the request made to the path specified in the _backend_ section, will be redirected to the target system using the cloud connector as a proxy agent.
