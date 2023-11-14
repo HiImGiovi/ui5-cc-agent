@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "type": "module",
   "description": "UI5 middleware supporting proxy agent for using Cloud Connector in local setup",
-  "main": "src/proxy.js",
+  "main": "lib/proxy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "UI5",
+    "SAP",
+    "middleware",
+    "CloudConnector",
+    "proxy",
+    "extension"
+  ],
   "author": "Simone Giovinazzo",
   "repository": {
     "url": "https://github.com/HiImGiovi/ui5-cc-agent.git",

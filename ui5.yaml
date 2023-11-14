@@ -4,4 +4,4 @@ metadata:
 kind: extension
 type: server-middleware
 middleware:
-  path: src/proxy.js
+  path: lib/proxy.js

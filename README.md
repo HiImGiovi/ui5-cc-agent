@@ -1,5 +1,7 @@
 # ui5-cc-agent
 
+Usefull middleware to use the SAP Cloud Connector in local configuration for a SAPUI5 app.
+
 # Install
 
 Save the dependency in your ui5 project running the command :
@@ -43,10 +45,11 @@ server:
         connectivity:
           clientId: <CLIENT ID OF CONNECTIVITY SERVICE INSTANCE>
           clientSecret: <CLIENT SECRET OF CONNECTIVITY SERVICE INSTANCE>
-          tokenURL: <TOKEN URL OF CONNECTIVITY SERVICE INSTANCE>
+          tokenUrl: <TOKEN URL OF CONNECTIVITY SERVICE INSTANCE>
         backend:
           - path: <PATH TO PROXY> #example /sap/opu/odata/sap/
             target: <TARGET SERVER> #example targethost
+            ccID: <CLOUD CONNECTOR LOCATION ID>
             auth:
               username: <USERNAME TO AUTHENTICATE TO THE TARGET SYSTEM>
               password: <PASSWORD TO AUTHENTICATE TO THE TARGET SYSTEM>
