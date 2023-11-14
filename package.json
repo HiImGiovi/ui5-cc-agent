@@ -1,12 +1,22 @@
 {
   "name": "ui5-middleware-agent",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
+  "description": "UI5 middleware supporting proxy agent",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Simone Giovinazzo",
+  "repository": {
+    "url": "https://github.com/HiImGiovi/ui5-middleware-agent.git",
+    "type": "git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.1",
+    "http-proxy": "^1.18.1",
+    "http-proxy-agent": "^7.0.0"
+  }
 }
