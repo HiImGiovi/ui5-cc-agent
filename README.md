@@ -1,11 +1,11 @@
-# UI5-MIDDLEWARE-AGENT
+# ui5-cc-agent
 
 # Install
 
 Save the dependency in your ui5 project running the command :
 
 ```
-npm install ui5-middleware-agent -D
+npm install ui5-cc-agent -D
 ```
 
 ## Usage
@@ -15,13 +15,13 @@ npm install ui5-middleware-agent -D
 ```json
 "devDependencies": {
     // ...
-    "ui5-middleware-agent": "*"
+    "ui5-cc-agent": "*"
     // ...
 },
 "ui5": {
   "dependencies": [
     // ...
-    "ui5-middleware-agent",
+    "ui5-cc-agent",
     // ...
   ]
 }
@@ -34,7 +34,7 @@ npm install ui5-middleware-agent -D
 ```yaml
 server:
   customMiddleware:
-    - name: ui5-middleware-agent
+    - name: ui5-cc-agent
       afterMiddleware: compression
       configuration:
         proxy:
